@@ -1,0 +1,16 @@
+{:paths ["src"]
+
+ :deps
+ {org.clojure/clojure {:mvn/version "1.10.1"}
+  hiccup {:mvn/version "1.0.5"}
+  compojure {:mvn/version "1.6.1"}
+  cheshire {:mvn/version "5.9.0"}
+  expound {:mvn/version "0.8.3"}
+  selmer {:mvn/version "1.12.18"}
+  ring/ring-defaults {:mvn/version "0.3.2"}
+  org.clojure/core.async {:mvn/version "1.0.567"}}
+
+ :aliases
+ {:dev {:extra-paths ["dev" "classes"]}}}
+
+   
